@@ -1,0 +1,137 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+/* Contenedor principal centrado */
+.container {
+   
+    min-width: 1400px;
+    margin: 0 auto; /* Centra el contenedor */
+    padding: 0 2rem;
+}
+
+/* Sección Hero (Inicio) */
+.hero {
+    background: url('american-airlines-40-flights-to-cancun-from-usa.webp') no-repeat center center;
+    background-size: cover; /* Ajusta la imagen para que ocupe todo el espacio */
+    height: 100vh;
+    color: #34495e; /* Color más oscuro para el texto */
+    display: flex;
+    justify-content: center;
+    align-items: center; /* Centrar verticalmente */
+    text-align: center;
+}
+
+    .hero .container {
+        color: #fff;
+        padding: 2rem; /* Añadir espacio alrededor del texto */
+    }
+
+    .hero h1 {
+        font-size: 3rem;
+        font-weight: bold;
+        margin: 0;
+    }
+
+    .hero p {
+        font-size: 1.2rem;
+        margin: 20px 0;
+    }
+
+.btn-primary {
+    background-color: #ff6f61; /* Naranja suave */
+    color: white;
+    padding: 12px 24px;
+    border-radius: 30px;
+    text-decoration: none;
+    font-size: 1.1rem;
+    transition: background-color 0.3s ease;
+}
+
+    .btn-primary:hover {
+        background-color: #e74c3c;
+    }
+
+/* Sección de Destinos Populares */
+.destinos {
+    background-color: #fff;
+    padding: 50px 0;
+    text-align: center;
+}
+
+    .destinos h2 {
+        font-size: 2.5rem;
+        margin-bottom: 40px;
+        color: #2c3e50;
+    }
+
+.destinos-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 20px;
+    justify-content: center; /* Centra el contenido de las tarjetas */
+}
+
+.destino-card {
+    background-color: #ecf0f1;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    max-width: 320px; /* Limita el ancho de las tarjetas */
+    margin: 0 auto; /* Centra las tarjetas */
+}
+
+.destino-img {
+    width: 100%;
+    border-radius: 10px;
+    height: 200px;
+    object-fit: cover;
+}
+
+.destino-card h3 {
+    font-size: 1.8rem;
+    margin-top: 15px;
+}
+
+.destino-card p {
+    font-size: 1rem;
+    color: #7f8c8d;
+}
+
+.btn-secondary {
+    background-color: #2980b9;
+    color: white;
+    padding: 8px 16px;
+    border-radius: 20px;
+    text-decoration: none;
+    font-size: 1rem;
+    margin-top: 15px;
+    transition: background-color 0.3s ease;
+}
+
+    .btn-secondary:hover {
+        background-color: #3498db;
+    }
+
+/* Sección de Reservas */
+.reservas {
+    background-color: #f4f4f4;
+    padding: 50px 0;
+    text-align: center;
+}
+
+    .reservas h2 {
+        font-size: 2.5rem;
+        margin-bottom: 20px;
+        color: #2c3e50;
+    }
+
+    .reservas p {
+        font-size: 1.2rem;
+        color: #7f8c8d;
+        margin-bottom: 30px;
+    }
